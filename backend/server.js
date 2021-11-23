@@ -15,11 +15,12 @@ fastify.listen(process.env.SERVER_PORT || 3005, "0.0.0.0", (err) => {
 
 fastify.get("/api/records/", async (request, reply) => {
   try {
-    fetch("http://localhost:3010/db/records/", {
+    fetch("http://db:3010/db/records/", {
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })
       .then(async (response) => {
+        console.log(response);
         reply.send(await response.json());
       })
       .catch((e) => {
@@ -34,7 +35,7 @@ fastify.get("/api/records/", async (request, reply) => {
 fastify.delete("/api/records/:recordId", async (request, reply) => {
   const recordId = request.params.recordId;
   try {
-    fetch(`http://0.0.0.0:3010/db/records/${recordId}`, {
+    fetch(`http://db:3010/db/records/${recordId}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     })
@@ -60,7 +61,7 @@ fastify.put("/api/records/", async (request, reply) => {
   const record = reqRecord;
 
   try {
-    fetch(`http://0.0.0.0:3010/db/records/`, {
+    fetch(`http://db:3010/db/records/`, {
       method: "PUT",
       body: JSON.stringify(record),
       headers: { "Content-Type": "application/json" },
