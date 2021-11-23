@@ -1,0 +1,20 @@
+{
+  "name": "mockdbapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.24.0",
+    "fastify-cors": "^6.0.2",
+    "jsonfile": "^6.1.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}

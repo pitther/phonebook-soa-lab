@@ -1,0 +1,64 @@
+{
+  "records": [
+    {
+      "id": "c528d6d2-672b-4895-81e0-65a1d14d78b6",
+      "name": "Lucien Gregory",
+      "mobile": "+38(093)5848512",
+      "home": "42-42-12"
+    },
+    {
+      "id": "785e4718-9390-4476-92d3-8f147fc0fc47",
+      "name": "Kadeem Davie",
+      "mobile": "+38(032)5215652",
+      "home": "24-41-19"
+    },
+    {
+      "id": "2ef06ebb-2c7f-481e-bd41-e205665bb4e4",
+      "name": "Elmer Guevara",
+      "mobile": "+38(061)8568923",
+      "home": "64-28-59"
+    },
+    {
+      "id": "79f9279d-9e53-4f6f-b7cb-b3d2365d4044",
+      "name": "Daanish Schofield",
+      "mobile": "+38(085)4893756",
+      "home": "78-63-64"
+    },
+    {
+      "id": "0d9dcf3c-06b3-42e5-a9c5-fd78e1b9e32d",
+      "name": "Ned Guthrie",
+      "mobile": "+38(099)7349851",
+      "home": "68-23-74"
+    },
+    {
+      "id": "cef1adb4-0a51-4336-8e8e-139ef74de7aa",
+      "name": "Steve Delaney",
+      "mobile": "+38(099)7346825",
+      "home": "28-11-31"
+    },
+    {
+      "id": "befee120-fb31-48bc-a584-d7308a4e2733",
+      "name": "Lennon Liu",
+      "mobile": "+38(099)2864775",
+      "home": "51-17-78"
+    },
+    {
+      "id": "fa04dcea-9e8f-4cea-a590-439b5906c247",
+      "name": "Rodrigo Levy",
+      "mobile": "+38(092)5436712",
+      "home": "12-52-63"
+    },
+    {
+      "id": "6bd8ac51-9d4f-46a3-9f63-c5b65b78a13f",
+      "name": "Adele Bonner",
+      "mobile": "+38(096)5431534",
+      "home": "52-26-66"
+    },
+    {
+      "id": "cc413d5d-7b5d-4aac-a099-3a484594d7d1",
+      "name": "Bibi Morin",
+      "mobile": "+38(095)5346124",
+      "home": "53-32-65"
+    }
+  ]
+}
